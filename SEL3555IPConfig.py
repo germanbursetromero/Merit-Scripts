@@ -3,16 +3,16 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 import time
 
-username="meritsi"
-password="Merit$1JMS1"
-name="USTXJMS1PPC1S002"
+username=""    # change to merit username
+password=""    # change based off project
+name=""        # change based off device
 location = "SCADA Rack"
 description = "Backup PPC"
-ipaddrOne1="10.21.10.3"
-ipaddrOne5 = 28
-gateway1 = "10.21.10.1"
-ipaddrTwo1 = "10.21.70.31"
-ipaddrTwo5 = "24"
+ipaddrOne1=""    # change based off device
+ipaddrOne5 =     # change based off device
+gateway1 = ""    # change based off device
+ipaddrTwo1 = ""  # change based off device
+ipaddrTwo5 = ""  # change based off device
 
 options = webdriver.ChromeOptions()
 options.add_argument('--ignore-ssl-errors=yes')
