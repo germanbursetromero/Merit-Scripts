@@ -5,8 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-username="meritsi"
-password="Merit$1CAL1"      # change based off project name
+username=""      # username used in all machines
+password=""      # change based off project name
 httpsaddress="downloads.dell.com"
 snmpname="private"
 
